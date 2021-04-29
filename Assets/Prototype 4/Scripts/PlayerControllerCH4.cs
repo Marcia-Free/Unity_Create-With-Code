@@ -15,7 +15,7 @@ public class PlayerControllerCH4 : MonoBehaviour
     private GameManagerCH4 gameManager;
 
 
-    // Start is called before the first frame update
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -23,7 +23,6 @@ public class PlayerControllerCH4 : MonoBehaviour
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerCH4>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         float forwardInput = Input.GetAxis("Vertical");
